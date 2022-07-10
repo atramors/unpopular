@@ -1,13 +1,14 @@
-# unpopular
+# Discover new music bands by hashtag
 Looking for not so known bands by genres
 
-# Create virtual environment and activate it:
-virtualenv venv && . venv/bin/activate
-# Install requirements:
-python3 -m pip install -r requirements.txt
-# Usage:
+### Create virtual environment and activate it:
+$ `virtualenv venv && . venv/bin/activate`
+### Install requirements:
+$ `python3 -m pip install -r requirements.txt`
+### Usage:
 
-python parse_lib.py --help
+$ `python parse_lib.py --help`
+
 Usage: parse_lib.py [OPTIONS]
 
 Options:
@@ -19,4 +20,4 @@ Options:
   --help               Show this message and exit.
 
 # Example:
-python parse_lib.py -t stoner
+$ `python parse_lib.py -t stoner`
