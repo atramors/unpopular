@@ -1,7 +1,7 @@
 import os
-from typing import Dict, Optional
 import click
 import requests
+from typing import Dict, Optional
 
 
 API_KEY = os.environ.get("LFM_API_KEY")
