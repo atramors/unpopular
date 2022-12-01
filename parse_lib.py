@@ -63,7 +63,7 @@ class LastFmClient:
 
 
 @click.command()
-@click.option('-t', '--tag', required=True, help='tag is a requirement option')
+@click.option('-t', '--tag', required=True, help='tag is a required option')
 @click.option('-l', '--limit', default=10, show_default=True,
               help='The number of results to fetch per page.')
 @click.option('-p', '--page', default=1, show_default=True,
